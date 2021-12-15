@@ -163,13 +163,13 @@ function getMoreInfo(){
 
 //function to concat base url,response type,input word and api key (Dictionary API)
 function urlConcatMoreInfo(word){
-    fullURL='https://www.dictionaryapi.com/api/v3/references/collegiate/json/'+word+'?key=2a313ed6-a9b0-49c6-b947-d60f244ddd24';
+    fullURL='https://www.dictionaryapi.com/api/v3/references/collegiate/json/'+word+'?key=';
     return fullURL;
 }
 
 //function to concat base url,response type,input word and api key (Thesaurus API)
 function urlConcatSyn(word){
-    fullURL='https://www.dictionaryapi.com/api/v3/references/thesaurus/json/'+word+'?key=1cc37419-31b2-4bac-93c8-2affb4e8afee'
+    fullURL='https://www.dictionaryapi.com/api/v3/references/thesaurus/json/'+word+'?key='
     return fullURL;
 }
 //clear dictionary dat
